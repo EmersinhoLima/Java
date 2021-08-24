@@ -1,0 +1,15 @@
+package Aula2;
+
+public class Lapis {
+
+	
+	String cor;
+	float ponta;
+	String modelo;
+	String material;
+	
+
+	void status() {
+		 System.out.println("qual a marca do lapis? " + modelo );	
+	}
+}
