@@ -1,0 +1,8 @@
+package estojo;
+
+public class Main {
+
+escrever escrever  = new escrever()
+
+	
+}
