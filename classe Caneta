@@ -1,4 +1,5 @@
-package Aula2;
+package estojo;
+
 
 public class Caneta {
 
@@ -10,19 +11,19 @@ public class Caneta {
 	  String material;
 	  boolean rabiscar;
 	  
-	  void status() {
-			 System.out.println("qual é a ponta da caneta? " + ponta );	
+	  void cores() {
+			 System.out.println("Qual é a cor da Caneta? " + cor  );
+			 
+	  public void status() {
+		 System.out.println("qual é a ponta da caneta? " + ponta );	
 	  }
 	  void rabiscar() {
-		  	System.out.println("Ela rabisca? " + rabiscar );	
+		  	System.out.println("Qual o modelo ? " + modelo );	
 	  }
 
 	  void tampar() {
-		  
-	  }
+		  	System.out.println("Ela rabisca? " + tampada );	
+			    }
+	  
+}
 
-	  void destampar() {
-
-	  }
-
-	}
