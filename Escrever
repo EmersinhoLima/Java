@@ -1,0 +1,28 @@
+package estojo;
+
+public class Escrever {
+		
+
+//aplicando as caracteriscas do objeto l1
+
+
+	Lapis l1 = new Lapis();
+	
+	l1.cor = "Preto";
+	l1.material = "madeira";
+	l1.ponta = 1.0f;
+	l1.apontar();
+	
+	//aplicando as caracteriscas do objeto lapizeira	
+	
+	Lapis lapizeira = new Lapis ();
+	
+	lapizeira.cor = "Azul";
+	lapizeira.material = "plastico";
+	lapizeira.ponta = 0.7f;
+	lapizeira.modelo = "faber castel";
+	
+	}
+	
+	    
+}
