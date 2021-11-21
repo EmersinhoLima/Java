@@ -1,15 +1,16 @@
-package Aula2;
+package estojo;
 
 public class Lapis {
 
+	
 	
 	String cor;
 	float ponta;
 	String modelo;
 	String material;
 	
-
-	void status() {
-		 System.out.println("qual a marca do lapis? " + modelo );	
+	void apontar() {
+		 System.out.println("Qual é a ponta do Lapis? " + ponta  );	
 	}
+	
 }
